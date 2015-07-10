@@ -219,8 +219,6 @@ public class CompassView extends View {
         Paint groundPaint = new Paint();
         groundPaint.setShader(groundShader);
 
-        setPitch(17.0f);
-        setRoll(50f);
 
         float tiltDegree = pitch;
         while (tiltDegree > 90 || tiltDegree < -90) {
